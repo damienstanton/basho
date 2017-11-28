@@ -410,4 +410,11 @@ updatebranch() {
         && git merge master \
         && git push
 }
+
+# nb is a shortcut for running local-only node binaries.
+# Usage: nb myLocalBinary <args>
+nb() {
+	node_modules/.bin/$@
+}
+
 # ╚---------------------------------------------------------------functions end
