@@ -1,11 +1,10 @@
-# bashō
 
 Shell automation functions to append to your `.zshrc` or `.bashrc` or `.bash_profile` file.
 
 **Installation:**
 
 ```sh
-curl -L https://link.damien.codes/basho >> .zshrc # or similar
+curl -L https://link.damien.codes/basho >> .zshrc
 ```
 
 © 2017 Damien Stanton
