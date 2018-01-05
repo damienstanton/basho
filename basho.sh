@@ -417,4 +417,11 @@ nb() {
 	node_modules/.bin/$@
 }
 
+# newstack is a helper for launching a haskell based docker container using
+# the servant framework. Note that you will need to change the stack template
+# parameters to match your own name, email etc.
+newstack() {
+    stack new $1 servant-docker -p "author-email:damien.stanton@gmail.com" -p "author-name:Damien Stanton" -p "github-username:damienstanton"
+}
+
 # ╚---------------------------------------------------------------functions end
