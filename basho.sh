@@ -284,7 +284,7 @@ bin/
 node_modules/
 .vscode/
 .idea/
-vendor/*/*
+vendor/
 target/
 Cargo.lock
 **/*.rs.bak
